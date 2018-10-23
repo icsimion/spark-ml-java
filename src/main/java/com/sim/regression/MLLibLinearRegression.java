@@ -14,7 +14,6 @@ import org.apache.spark.sql.SparkSession;
 public class MLLibLinearRegression {
 
     public static void main(String[] args) {
-//        SparkSession spark = SparkSession.builder().getOrCreate();
         SparkSession spark = SparkSession.builder()
                 .appName("Spark example")
                 .master("local[*]")
